@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var getMilk: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -27,6 +30,8 @@ class ViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         // Here goes in some code before the view will disappear.
     }
+    
+    
 
 }
 
