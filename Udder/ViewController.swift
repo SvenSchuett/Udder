@@ -16,13 +16,17 @@ class ViewController: UIViewController {
     
     
     override func viewWillAppear(_ animated: Bool) {
-        //
+    
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         //
     }
 
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        // Here goes in some code before the view will disappear.
+    }
 
 }
 
